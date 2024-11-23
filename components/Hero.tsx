@@ -48,7 +48,21 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Mohd Shahid, a Full Stack Developer.
+            Hi! I&apos;m Mohd Shahid, a{" "}
+            {
+              <Typewriter
+                options={{
+                  strings: [
+                    "Full Stack Developer",
+                    "Web Developer",
+                    "UI/UX Designer",
+                    "Web Designer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            }
           </p>
 
           <a href="#about">
