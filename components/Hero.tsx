@@ -47,23 +47,21 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Mohd Shahid, a{" "}
-            {
-              <Typewriter
-                options={{
-                  strings: [
-                    "Full Stack Developer",
-                    "Web Developer",
-                    "UI/UX Designer",
-                    "Web Designer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            }
-          </p>
+          <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            <p>Hi! I&apos;m Mohd Shahid, a</p>
+            <Typewriter
+              options={{
+                strings: [
+                  "Full Stack Developer",
+                  "Web Developer",
+                  "UI/UX Designer",
+                  "Web Designer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
 
           <a href="#about">
             <MagicButton
